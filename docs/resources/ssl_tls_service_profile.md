@@ -21,7 +21,7 @@ NGFW and Panorama.
 ## Example Usage
 
 ```hcl
-resource "panos_ssl_tls_service_profiles" "example" {
+resource "panos_ssl_tls_service_profile" "example" {
     name = "fromTerraform"
     certificate = "myCert"
     min_version = "tls1-1"
